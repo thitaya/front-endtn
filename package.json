@@ -1,0 +1,19 @@
+{
+  "name": "tn-daily-application",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@gitlab.thinknet.co.th:tndaily/tn-daily-application.git",
+  "author": "Thitaya Suaimak ( ตาล - Trainee ) <thitaya@thinknet.co.th>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@zeit/next-css": "^0.2.0",
+    "antd": "^3.6.6",
+    "hover.css": "^2.3.2",
+    "next": "^6.1.1"
+  }
+}
