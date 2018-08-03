@@ -21,10 +21,10 @@ export default class extends Component {
     return (
       <div>
         <Header />
-        <div style={{ background: '#ECECEC', padding: '50px',height: '1000px' }}>
+        {/* <div style={{ background: '#ECECEC', padding: '50px',height: '1000px' }}> */}
         <Tabmenupage/>
         </div>
-      </div>
+      // </div>
 
     );
   }

@@ -13,11 +13,11 @@ const text = `
 const LayoutComponent = () => {
 
   return (
-    <div>
+    <div className ="loyoutall">
       <Navname />
-      <div className="layout" style={{ width : "120%"}}>
+      <div className="layout" >
         <div className="users">
-          <h2 className="name-user">mapmagic</h2>
+          <h2 className="name-user">p'set</h2>
         </div>
         <div className="Card-role">
         <Selectrole/>

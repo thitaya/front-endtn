@@ -76,6 +76,7 @@ h3{
 
 .role{
     text-align: right;
+    margin-right: 40px;
 }
 
 .state{
@@ -140,25 +141,16 @@ a:hover{
     transition: width 2s linear 1s;
 
 }
+
 .users{
     width: 90%;
 }
 .name-user{
     margin-top: 12px;
-    margin-left: 85px;
+    margin-left: 70px;
     color: #4a4a4a;
 }
-.rule{
-    margin-left: 218px;
-    margin-top: 10px;
-}
-.layout:hover {
-    /* transform: scale(1.2);  */
-}
 
-.button-user{
-
-}
 .report{
     text-align: right;
 
@@ -174,11 +166,30 @@ a:hover{
 .Card-role {
     width: 20%;
     margin-top: 10px;
+    /* margin-left: 100px; */
     text-align: right;
-    margin-left: 50px;
 }
 .Card-state{
     width: 20%;
     margin-top: 10px;
-    margin-left: 30px;
+    margin-right: 60px;
+    text-align: right;
+
 }
+/* .layout:hover, 
+.layout:active {
+ width: 120%;
+} */
+
+/* .loyoutall{
+    width: 1000px;
+    margin-left: 100px;
+} */
+/* .Tabmenupage{
+    width: 1000px;
+    margin-left: 90px;
+
+} */
+/* .layout :hover{
+    width: 1200px;;
+} */
