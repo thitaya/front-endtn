@@ -10,14 +10,15 @@ const text = `
  55
 `;
 
-const LayoutComponent = () => {
+const LayoutComponent = (props) => {
 
   return (
     <div className ="loyoutall">
       <Navname />
-      <div className="layout" >
+       {props.data.map(name => 
+     ( <div className="layout" >
         <div className="users">
-          <h2 className="name-user">p'set</h2>
+          <h2 className="name-user">{name}</h2>
         </div>
         <div className="Card-role">
         <Selectrole/>
@@ -25,8 +26,8 @@ const LayoutComponent = () => {
         <div className="Card-state">
          <Selectstate/>
         </div>
-      </div>
-
+      </div>)
+      )}
     </div>
   )
 }
